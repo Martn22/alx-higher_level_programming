@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#This function prints a string in uppercase
+# This function prints a string in uppercase
 def uppercase(str):
     result = ''
     for x in str:
