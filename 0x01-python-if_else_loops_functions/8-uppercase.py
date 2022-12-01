@@ -1,7 +1,12 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
-uppercase = __import__('8-uppercase').uppercase  
+#This function prints a string in uppercase
+def uppercase(str):
+    result = ''
+    for x in str:
+        if ord(x) >= 97 and ord(x) <= 122:
+            result = ord(x) - 32
+            print(f"{chr(result)}")
 
-uppercase("best") 
-
-uppercase("Best School 98 Battery street")
+        else:
+            print(x)
