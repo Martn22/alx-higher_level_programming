@@ -2,8 +2,7 @@
 def uniq_add(my_list=[]):
     set1 = set(my_list)
     result = 0
-
     for element in set1:
         result = result + element
-        
+
     return result
