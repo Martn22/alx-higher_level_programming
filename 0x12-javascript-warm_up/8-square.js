@@ -4,7 +4,9 @@ const process = require('process');
 const argz = process.argv;
 const myVar = parseInt(argz[2]);
 let i, j;
-if (isNaN(myVar)) {
+if (argz[2] === undefined) {
+  console.log('Missing size');
+} else if (isNaN(myVar)) {
   console.log('Missing size');
 } else {
   for (i = 0; i < myVar; i++) {
