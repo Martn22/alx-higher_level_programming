@@ -2,7 +2,7 @@
 // Script that prints a square.
 const process = require('process');
 const argz = process.argv;
-const myVar = Number(argz[2]);
+const myVar = parseInt(argz[2]);
 let i, j;
 if (isNaN(myVar)) {
   console.log('Missing size');
@@ -12,6 +12,6 @@ if (isNaN(myVar)) {
     for (j = 0; j < myVar; j++) {
       row += 'x';
     }
-    console.log(row + '');
+    console.log(row);
   }
 }
