@@ -12,6 +12,6 @@ if (isNaN(myVar)) {
     for (j = 0; j < myVar; j++) {
       row += 'x';
     }
-    console.log(row+" ");
+    console.log(row + '');
   }
 }
