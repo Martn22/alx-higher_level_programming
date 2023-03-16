@@ -12,7 +12,7 @@ if (argz[2] === undefined) {
   for (i = 0; i < myVar; i++) {
     let row = '';
     for (j = 0; j < myVar; j++) {
-      row += 'x';
+      row += 'X';
     }
     console.log(row);
   }
